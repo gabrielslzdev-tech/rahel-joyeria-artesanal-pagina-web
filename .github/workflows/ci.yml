@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  quality:
+    name: Lint · Typecheck · Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Pruebas unitarias
+        run: npm test
+
+      # Auditoría de dependencias (sección 17.12). No bloquea por vulnerabilidades
+      # de severidad baja/moderada, sí reporta.
+      - name: Auditoría de dependencias
+        run: npm audit --audit-level=high
+        continue-on-error: true

@@ -1,0 +1,27 @@
+{
+  "common": {
+    "brand": "Creaciones Rahel",
+    "tagline": "Joyería artesanal de Baja California",
+    "loading": "Cargando…",
+    "language": "Idioma",
+    "es": "Español",
+    "en": "Inglés"
+  },
+  "home": {
+    "title": "Creaciones Rahel",
+    "subtitle": "Joyería artesanal personalizada, hecha a mano en Tecate, Baja California.",
+    "cta": "Ver colección"
+  },
+  "nav": {
+    "shop": "Tienda",
+    "collections": "Colecciones",
+    "story": "Nuestra historia",
+    "account": "Mi cuenta",
+    "cart": "Carrito"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La página que buscas no existe o fue movida.",
+    "back": "Volver al inicio"
+  }
+}
