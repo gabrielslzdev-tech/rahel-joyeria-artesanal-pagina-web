@@ -23,5 +23,23 @@
     "title": "Página no encontrada",
     "description": "La página que buscas no existe o fue movida.",
     "back": "Volver al inicio"
+  },
+  "auth": {
+    "loginTitle": "Iniciar sesión",
+    "registerTitle": "Crear cuenta",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "loginCta": "Entrar",
+    "registerCta": "Registrarme",
+    "toRegister": "¿No tienes cuenta? Regístrate",
+    "toLogin": "¿Ya tienes cuenta? Inicia sesión",
+    "invalidCredentials": "Correo o contraseña incorrectos.",
+    "emailTaken": "Ese correo ya está registrado.",
+    "invalidData": "Revisa los datos ingresados.",
+    "genericError": "Ocurrió un error. Intenta de nuevo.",
+    "registerSuccess": "Cuenta creada. Ya puedes iniciar sesión.",
+    "submitting": "Procesando…"
   }
 }

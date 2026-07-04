@@ -23,5 +23,23 @@
     "title": "Page not found",
     "description": "The page you are looking for does not exist or was moved.",
     "back": "Back to home"
+  },
+  "auth": {
+    "loginTitle": "Sign in",
+    "registerTitle": "Create account",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "loginCta": "Sign in",
+    "registerCta": "Sign up",
+    "toRegister": "No account? Sign up",
+    "toLogin": "Already have an account? Sign in",
+    "invalidCredentials": "Incorrect email or password.",
+    "emailTaken": "That email is already registered.",
+    "invalidData": "Please check the data you entered.",
+    "genericError": "Something went wrong. Please try again.",
+    "registerSuccess": "Account created. You can now sign in.",
+    "submitting": "Processing…"
   }
 }

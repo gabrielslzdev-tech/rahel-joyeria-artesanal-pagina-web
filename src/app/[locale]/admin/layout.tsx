@@ -1,5 +1,8 @@
 import type { ReactNode } from "react";
 
+// El panel es privado y depende de la sesión: nunca se cachea estáticamente.
+export const dynamic = "force-dynamic";
+
 /**
  * Layout del panel interno.
  *
