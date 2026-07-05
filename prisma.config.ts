@@ -12,10 +12,14 @@ export default defineConfig({
   schema: "prisma/schema.prisma",
   migrations: {
     path: "prisma/migrations",
+    seed: "tsx prisma/seed.ts",
   },
   datasource: {
     // El CLI (migraciones) usa la conexión DIRECTA para evitar el pooler.
     // En runtime, el cliente usará DATABASE_URL (pooled) vía driver-adapter (F1).
     url: process.env["DIRECT_URL"] ?? process.env["DATABASE_URL"],
+    // Solo en desarrollo: shadow DB para `prisma migrate dev`. En producción
+    // (Postgres gestionado) no hace falta; queda undefined y se ignora.
+    shadowDatabaseUrl: process.env["SHADOW_DATABASE_URL"],
   },
 });

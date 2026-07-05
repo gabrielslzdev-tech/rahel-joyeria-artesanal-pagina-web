@@ -48,3 +48,7 @@ Thumbs.db
 *.tsbuildinfo
 
 /src/generated/prisma
+
+# DB local de desarrollo (embedded-postgres)
+.dev-postgres/
+.dev-accel-url.tmp
