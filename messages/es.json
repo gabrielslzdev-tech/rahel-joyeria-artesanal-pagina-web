@@ -24,6 +24,38 @@
     "description": "La página que buscas no existe o fue movida.",
     "back": "Volver al inicio"
   },
+  "catalog": {
+    "title": "Tienda",
+    "subtitle": "Joyería artesanal hecha a mano en Tecate, Baja California.",
+    "empty": "No hay productos que coincidan.",
+    "all": "Todos",
+    "filterByCategory": "Categoría",
+    "featuredTitle": "Destacados",
+    "viewAll": "Ver toda la tienda",
+    "viewDetails": "Ver detalle",
+    "from": "Desde",
+    "bestseller": "Más vendido",
+    "featured": "Destacado",
+    "personalizable": "Personalizable",
+    "nonReturnable": "No retornable (personalizado)",
+    "scalePhoto": "Foto de escala",
+    "shippingNote": "Más el tiempo de paquetería.",
+    "whatsappCta": "Consultar por WhatsApp",
+    "whatsappMessage": "Hola, me interesa: {product}",
+    "variants": "Opciones",
+    "care": "Cuidado de la pieza",
+    "customization": "Personalización",
+    "engravingPlaceholder": "Texto a grabar",
+    "priceEffect": "+{amount}",
+    "timeEffect": "+{days, plural, one {# día} other {# días}}",
+    "availability": {
+      "inStock": "Envío inmediato",
+      "soldOut": "Agotado",
+      "madeToOrder": "Listo para enviar en {days, plural, one {# día} other {# días}}",
+      "oneOfAKind": "Pieza única",
+      "oneOfAKindSold": "Pieza única vendida"
+    }
+  },
   "auth": {
     "loginTitle": "Iniciar sesión",
     "registerTitle": "Crear cuenta",
